@@ -1,0 +1,13 @@
+displayName: "Français"
+
+mainmenu.welcome: "Bienvenue sur ArtistDownloader !"
+mainmenu.author: "Développé par"
+mainmenu.choice.artistname: "1 » Télécharger avec le nom d'un artiste."
+mainmenu.choice.playlist: "2 » Télécharger une playlist avec son lien."
+mainmenu.choice.automode: "3 » Lancer le mode automatique."
+mainmenu.choice.finalfolder: "4 » Copier tout les dossiers Audio et les mettre dans un dossier final."
+mainmenu.choice.langchoice: "5 » Changer de langue."
+mainmenu.choice.quit: "6 » Quitter l'application."
+mainmenu.choice.text: "Faites votre choix : "
+mainmenu.choice.notexist: "Ce choix n'existe pas."
+mainmenu.finish: "Votre téléchargement est terminé, merci !"
