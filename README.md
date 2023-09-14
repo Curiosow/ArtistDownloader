@@ -19,6 +19,7 @@ To deploy this project run
    - pip install youtube-search-python
    - pip install pytube
    - pip install colorama
+   - pip install PyYAML
 ```
 
 
