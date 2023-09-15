@@ -1,4 +1,5 @@
 displayName: "Français"
+valueName: "Valeur: "
 
 mainmenu.welcome: "Bienvenue sur ArtistDownloader !"
 mainmenu.author: "Développé par"
@@ -11,3 +12,8 @@ mainmenu.choice.quit: "6 » Quitter l'application."
 mainmenu.choice.text: "Faites votre choix : "
 mainmenu.choice.notexist: "Ce choix n'existe pas."
 mainmenu.finish: "Votre téléchargement est terminé, merci !"
+
+artistfinder.search: "Érivez le nom d'un artiste un d'un groupe afin de lancer la recherche."
+artistfinder.nbrmusic: "Nombre de musiques: "
+artistfinder.instrumental: "Voulez-vous les instrumentals (1 = Oui | 0 = Non): "
+artistfinder.acapella: "Voulez-vous les acapellas (1 = Oui | 0 = Non): "

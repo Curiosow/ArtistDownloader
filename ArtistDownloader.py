@@ -1,6 +1,8 @@
 # ------------------------------------------------------------ #
 # INIT
 
+import ArtistFinder
+
 import re
 import shutil
 import os
@@ -49,7 +51,14 @@ def chatColorReset() -> None:
 
 chatEraser()
 # ------------------------------------------------------------ #
+# ARTIST LAUNCHER
+
+def artistLauncher() -> None:
+    ArtistFinder.setValues(lang)
+    ArtistFinder.launch()
+# ------------------------------------------------------------ #
 # STARTERS
+
 def start() -> None:
     print(Fore.LIGHTCYAN_EX + "---------------------------")
     print(Fore.MAGENTA + "ArtistDownloader " + Fore.LIGHTBLACK_EX + "•" + Fore.WHITE + " Menu")
@@ -62,8 +71,7 @@ def start() -> None:
     print(Fore.LIGHTCYAN_EX + "---------------------------")
     choice = int(input(Fore.YELLOW + lang["mainmenu.choice.text"]))
     if choice == 1:
-        # launch()
-        print("t")
+        artistLauncher()
     elif choice == 2:
         # playlist()
         print("t")
